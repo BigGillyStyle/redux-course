@@ -49,7 +49,7 @@ function ActionLinks({ isAuthed }) {
 
 export default function Navigation({ isAuthed }) {
   return (
-    <div className="container">
+    <div className="centered-container">
       <nav className="navContainer">
         <NavLinks isAuthed={isAuthed} />
         <ActionLinks isAuthed={isAuthed} />

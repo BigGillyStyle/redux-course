@@ -6,8 +6,8 @@ import { Navigation } from "../../components";
 export default class MainContainer extends Component {
   render() {
     return (
-      <div className="container">
-        <Navigation isAuthed={true} />
+      <div className="centered-container">
+        <Navigation isAuthed={false} />
         <div className="innerContainer">{this.props.children}</div>
       </div>
     );
